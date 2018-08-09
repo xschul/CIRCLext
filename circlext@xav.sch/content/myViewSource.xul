@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<overlay id="sample" 
+xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+ <script type="application/javascript" src="chrome://circlext/content/myViewSource.js"/>
+
+ <menubar id="viewSource-main-menubar">
+  <menu id="menu_circl"/>
+ </menubar>
+
+ <menu id="menu_circl" label="CIRCL">
+  	<menupopup id="circlmenu-popup">
+	    <menuitem label="Is the email safe ?" oncommand="pycirclean()"/>
+	    <menuitem label="Forward to MISP"/>
+  	</menupopup>
+ </menu>
+
+</overlay>
