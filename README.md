@@ -7,7 +7,9 @@ First clone this repository. Then:
 
 ### Install dependencies
 
+```
 pip3 install -r requirements.txt
+```
 
 ### Install the extension
 * Go to the Thunderbird extension folder
