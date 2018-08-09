@@ -12,7 +12,7 @@ First clone this repository. Then:
   + **MAC**:  `~/Library/Thunderbird/Profiles/<Profile Name>/extensions/ `
 * Create in this folder a new file named `circlext@xav.sch` that contains the path to the extension. Example: `/home/user/Desktop/CIRCLext/circlext@xav.sch`
 
-### Run the server `
+### Run the server
 Execute the `run_server.sh` script.
 
 ## Try the extension
